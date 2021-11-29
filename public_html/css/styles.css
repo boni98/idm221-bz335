@@ -49,6 +49,20 @@ h1 {
 h2 {
   color: white;
   position: absolute;
+  
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  font-size: 5rem;
+}
+
+.home-sub{
+  color: black;
+  margin-top: 0;
+  font-size: 1.5rem;
+  font-weight: normal;
   top: 50%;
   left: 50%;
   z-index: 1;
