@@ -12,6 +12,15 @@ img { max-width: 100%; }
   width: 100%;
 }
 
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 5rem;
+}
+
 header {
   background-color: black;
   padding: 3rem ;
@@ -59,6 +68,13 @@ nav ul li a.active {
   color: #72b6b8;
 }
 
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
 main {
   padding: 4rem 0;
 }
@@ -82,5 +98,12 @@ main {
 
 .footer {
   padding-bottom: 2rem;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: gray;
+  color: white;
   text-align: center;
 }
