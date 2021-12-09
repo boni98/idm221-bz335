@@ -37,6 +37,11 @@ img { max-width: 100%; }
   font-size: 5rem;
 }
 
+.wrapper {
+  background-color: #fff;
+  margin: auto;
+}
+
 /* headers */
 header {
   background-color: black;
