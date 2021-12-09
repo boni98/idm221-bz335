@@ -37,6 +37,7 @@ img { max-width: 100%; }
   font-size: 5rem;
 }
 
+/* headers */
 header {
   background-color: black;
   padding: 3rem ;
@@ -115,14 +116,13 @@ nav ul li a.active {
   color: #72b6b8;
 }
 
+/* projects */
 .projects .row {
   overflow: auto;
 }
 
 .projects .row .col {
-  float: left;
-  width: 50%;
-  width: calc(100%/2);
+  width: 100%;
 }
 
 .projects figcaption {
@@ -132,6 +132,7 @@ nav ul li a.active {
   text-align: center;
 }
 
+/* footer */
 #footer {
   padding-bottom: 2rem;
   padding-top: 2rem;
