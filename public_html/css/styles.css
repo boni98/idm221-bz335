@@ -23,6 +23,11 @@ img { max-width: 100%; }
   width: 100%;
 }
 
+.fluid {
+  max-width: none;
+  margin:0;
+}
+
 .centered {
   position: absolute;
   top: 50%;
@@ -68,6 +73,7 @@ h3 {
   z-index: 1;
 }
 
+/* navigation bar */
 nav {
   text-align: right;
 }
@@ -126,8 +132,9 @@ nav ul li a.active {
   text-align: center;
 }
 
-.footer {
+#footer {
   padding-bottom: 2rem;
+  padding-top: 2rem;
   text-align: center;
   left: 0;
   bottom: 0;

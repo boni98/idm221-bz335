@@ -50,6 +50,7 @@ Thumbs.db
 # Custom #
 ######################
 *.jpg
+*.png
 *.gif
 /assignments
 contacts.md
