@@ -84,10 +84,10 @@ h4 {
 }
 
 .home-sub{
-  color: black;
+  color: white;
   margin-top: 0;
   font-size: 1.5rem;
-  font-weight: normal;
+  font-weight: bolder;
   top: 42%;
   left: 50%;
   z-index: 1;
@@ -99,15 +99,24 @@ nav {
 }
 
 .navbar {
-    background: black;
+  background: black;
 }
   
 .navbar-brand {
   width: 5rem;
   height: 5rem;
   overflow: hidden;
-  margin-top: 1rem;
+  margin-top: 5rem;
   margin-left: 3rem;
+  float: left;
+  color: #fff;
+}
+
+.navbar-brand-footer {
+  width: 5rem;
+  height: 5rem;
+  overflow: hidden;
+  margin-top: 1rem;
   float: left;
   color: #fff;
 }
@@ -121,12 +130,12 @@ nav ul {
 nav ul li {
   display: inline-block;
   margin: 0 2rem;
-  padding: 1.5rem;
+  padding: 3rem;
 }
 
 nav ul li a {
   color: #f8f8f8;
-  font-size: 1rem;
+  font-size: 2.5rem;
   font-weight: normal;
   text-decoration: none;
 }
