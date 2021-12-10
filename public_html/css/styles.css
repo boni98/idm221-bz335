@@ -204,5 +204,7 @@ footer {
 }
 
 .portrait {
-width: 50rem;
+  width: 50rem;
+  box-shadow: 0px 6px 5px rgb(0 0 0 / 40%);
+  border-radius: 3%;
 }
