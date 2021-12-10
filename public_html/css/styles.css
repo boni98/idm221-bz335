@@ -79,7 +79,7 @@ h3 {
   margin-top: 0;
   font-size: 1.5rem;
   font-weight: normal;
-  top: 50%;
+  top: 42%;
   left: 50%;
   z-index: 1;
 }
@@ -96,9 +96,8 @@ nav {
 .navbar-brand {
   width: 3rem;
   height: 3rem;
-  /* border-radius: 80%; */
   overflow: hidden;
-  margin-top: -1rem;
+  margin-top: 1rem;
   float: left;
   color: #fff;
 }
