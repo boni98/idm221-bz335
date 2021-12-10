@@ -47,6 +47,10 @@ img { max-width: 100%; }
   margin: auto;
 }
 
+p{
+  font-size: 24px;
+}
+
 /* headers */
 header {
   background-color: black;
@@ -72,6 +76,11 @@ h3 {
   font-family: 'Montserrat', sans-serif;
   color: #11999E;
   font-size: 5rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+  color: #11999E;
 }
 
 .home-sub{
@@ -158,10 +167,25 @@ footer {
   text-align: center;
 }
 
-.pb-1 {
+.pb-1 { 
   padding-bottom: 1rem;
 }
 
 .mb-0 {
   margin-bottom: 0;
+}
+
+/* about page */
+.otis {
+  list-style: none;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.portrait {
+width: 50rem;
 }
