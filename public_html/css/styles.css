@@ -112,6 +112,7 @@ nav ul {
 nav ul li {
   display: inline-block;
   margin: 0 2rem;
+  padding: 1.5rem;
 }
 
 nav ul li a {
@@ -143,14 +144,25 @@ nav ul li a.active {
 }
 
 /* footer */
+footer {
+  background-color: gray;
+  color: white;
+}
+
 #footer {
-  padding-bottom: 2rem;
   padding-top: 2rem;
   text-align: center;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: gray;
   color: white;
   text-align: center;
+}
+
+.pb-1 {
+  padding-bottom: 1rem;
+}
+
+.mb-0 {
+  margin-bottom: 0;
 }
