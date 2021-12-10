@@ -8,13 +8,18 @@ body {
 
 img { max-width: 100%; }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
 .background{
-  height: 700px;
+  height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   width: 200%;
+  max-width: 300%;
 }
 
 .container {
